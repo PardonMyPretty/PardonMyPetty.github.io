@@ -13,18 +13,18 @@ html, body {font-family: "Montserrat", sans-serif}
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
+<div class="w3-top" id="home">
   <div style="background: linear-gradient(-45deg, #eee0, #fad1df)" class="w3-bar w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large"><img src="PMP-Tiny-Logo.png" style="height: auto; width:auto"></a>
-    <a href="#band" style="color:#e4197f" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large"><img src="PMP-Tiny-Logo.png" style="height: auto; width:auto"></a>
+    <a href="#about" style="color:#e4197f" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
     <a href="https://www.styleseat.com/m/v/elexusmoore" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="color:#e4197f">BOOK</a>
     <a href="PardonMyPretty.github.io/shop.pmp.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="color:#e4197f">SHOP</a>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More" style="color:#e4197f"> MORE <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#"  class="w3-bar-item w3-button" style="color:#e4197f">Gallery</a>
-        <a href="#" class="w3-bar-item w3-button" style="color:#e4197f">Contact</a>
+        <a href="#gallery"  class="w3-bar-item w3-button" style="color:#e4197f">GALLERY</a>
+        <a href="#social" class="w3-bar-item w3-button" style="color:#e4197f">CONTACT</a>
         <a href="#" class="w3-bar-item w3-button" style="color:#e4197f">FAQs</a>
       </div>
     </div>
@@ -33,7 +33,7 @@ html, body {font-family: "Montserrat", sans-serif}
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" style="color:#e4197f" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#about" style="color:#e4197f" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
   <a href="https://www.styleseat.com/m/v/elexusmoore" style="color:#e4197f" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BOOK</a>
   <a href="PardonMyPretty.github.io/shop.pmp.html" style="color:#e4197f" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SHOP</a>
   <a href="#" style="color:#e4197f" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FAQs</a>
@@ -53,13 +53,13 @@ html, body {font-family: "Montserrat", sans-serif}
   
   
   <!-- The Band Section -->
-  <div style="background: linear-gradient( -90deg, #000, #000)" id="band">
+  <div style="background: linear-gradient( -90deg, #000, #000)" id="about">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
         <h1 style="color: #fad1df" class="w3-wide w3-center w3-opacity">Pardon, My Pretty . . .</h1>
     
     <p style="color: #fad1df" class="w3-justify w3-center"> Welcome, Beauties! <br> <br> I am Elexus Moore a 26-year-old, self-taught makeup artist. <br> <br> I offer an array of services for clients seeking to naturally enhance, what is already present. <br> <br> As part of the Pardon My Pretty experience, clients are welcomed into a comfortable setting where <br> <br> confidence is encouraged, and satisfaction is guaranteed.<br> <br> So, please join me for the Pardon My Pretty Experience!
 </p><br><p style="color: #fad1df" class="w3-opacity w3-center">Blessed Hands | Affordable Prices | Willing to Travel </p>
-    <div class="w3-row w3-padding-32">
+    <div class="w3-row w3-padding-32" id="gallery">
       <div class="w3-third w3-center">
         <p style="color: #fad1df">S U P E R | S E M I </p>
         <img src="https://instagram.ftpa1-2.fna.fbcdn.net/vp/df2f5de08af9ab4ff9a977d92d4f0e00/5CCD77BC/t51.2885-15/e35/26156895_2016925351897103_4583235150036336640_n.jpg?_nc_ht=instagram.ftpa1-2.fna.fbcdn.net" class="w3-margin-bottom" alt="Random Name" style="width:100%">
@@ -145,7 +145,7 @@ html, body {font-family: "Montserrat", sans-serif}
   </div>
 
   <!-- The Contact Section -->
-  <div class="w3-black w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+  <div class="w3-black w3-container w3-content w3-padding-64" style="max-width:800px" id="social">
     <h1 style="color: #fad1df" class="w3-wide w3-center">C O N T A C T</h1>
     <p  style="color: #fad1df" class="w3-opacity w3-center"> P H O N E  |  S O C I A L  |  E M A I L</p>
     <h2 style="color: #fad1df" class="w3-wide w3-center"><i class="fa fa-phone" style="width:30px"></i> | 813 421 9194</h2><br>
